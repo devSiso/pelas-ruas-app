@@ -111,7 +111,14 @@ class _MainCollapsingToolbarState extends State<MainCollapsingToolbar> {
                           true),
                     ],
                   )),
-              new Container(child: new Center(child: new Text("kasjdkas")))
+              new Container(child: new Center(child: new Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  new Icon(Icons.map),
+                  new Padding(padding: new EdgeInsets.only(bottom: 7.0)),
+                  new Text("MAPA")
+                ],
+              )))
             ],
           ),
         ),

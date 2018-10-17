@@ -26,7 +26,16 @@ class LoginPageState extends State<LoginPage> {
             child: new Container(
               child: new RaisedButton(
                 onPressed: () => this._toHome(),
-                child: new Text("Log In"),
+                child: new Container(
+                  width: 120.0,
+                    child:new Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget> [
+                    new Icon(Icons.lock_open),
+                    new Padding(padding: new EdgeInsets.only(right: 6.0)),
+                    new Text("Sign in")
+                  ]
+                )),
               ),
             ),
           )

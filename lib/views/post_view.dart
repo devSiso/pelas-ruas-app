@@ -102,6 +102,7 @@ class PostView extends StatelessWidget {
           new Padding(
               padding: new EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 15.0),
               child: new Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   new Container(
                       width: 125.0,
@@ -117,7 +118,6 @@ class PostView extends StatelessWidget {
                           ),
                         ],
                       )),
-                  new Padding(padding: new EdgeInsets.only(right: 50.0)),
                   new Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: <Widget>[
