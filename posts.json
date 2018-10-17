@@ -1,0 +1,30 @@
+{
+    "posts": [{
+            "distance": 100,
+            "photoUrl": "https://avatars2.githubusercontent.com/u/498852?s=400&v=4",
+            "name": "Paulo Silva",
+            "when": "hoje",
+            "followers": 10,
+            "comments": 24,
+            "soluted": false
+        },
+        {
+            "distance": 300,
+            "photoUrl": "https://avatars2.githubusercontent.com/u/498852?s=400&v=4",
+            "name": "Marlon Santos",
+            "when": "ontem",
+            "followers": 40,
+            "comments": 16,
+            "soluted": true
+        },
+        {
+            "distance": 50,
+            "photoUrl": "https://avatars2.githubusercontent.com/u/498852?s=400&v=4",
+            "name": "Tatiana Lima",
+            "when": "Ultima semana",
+            "followers": 86,
+            "comments": 31,
+            "soluted": false
+        }
+    ]
+}
